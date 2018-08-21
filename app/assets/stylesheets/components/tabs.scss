@@ -1,0 +1,45 @@
+.container{
+	width: 100%;
+	margin: 0 auto;
+	margin-top: 15px;
+}
+
+.tabs{
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+	background:#88a29c;
+	border-bottom: 5px #88a29c solid;
+}
+
+.tabs li{
+	display: inline-block;
+	margin:0;
+	padding: 10px 20px 5px 20px;
+	cursor: pointer;
+
+	font-size:1.2em;
+	line-height:2em;
+	color:#FFF;
+}
+
+.tabs li:hover {
+	background:#ff2869;
+}
+
+.tabs li.current{
+	background: #ff2869;
+	color: #FFF;
+}
+
+.tab-content{
+	display: none;
+	background: #ededed;
+	padding: 15px;
+
+	line-height:1.4;
+}
+
+.tab-content.current{
+	display: inherit;
+}
