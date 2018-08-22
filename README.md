@@ -1,24 +1,38 @@
-# README
+# S8 Startup Nation FoodTech O'Quinoa
+Online: https://stark-spire-13138.herokuapp.com/
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Check en mode local :
+```
+$ git clone https://github.com/ptalk91/S8-startup-foodtech.git
+```
+```
+$ cd S8-startup-foodtech
+```
 
-Things you may want to cover:
+## Etapes:
+* Installation des gems (sans la production)
 
-* Ruby version
+```
+$ bundle install --without production
+```
+```
+$ rails server
+```
 
-* System dependencies
+#### Dans la barre d'url du Navigateur web
+```
+$ localhost:3000
+```
 
-* Configuration
+### Si probleme avec rails server
+```
+$ rails server -p 4567
+```
+#### Dans la barre d'url du Navigateur web
+```
+$ localhost:4567
+```
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+### Version ruby
+ruby '2.5.1'
+rails '5.2.0'
