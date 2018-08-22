@@ -17,3 +17,26 @@
 //= require activestorage
 //= require turbolinks
 //= require_tree .
+
+// BANNER
+
+$(document).ready(function () {
+  $(function(){
+  setInterval(function(){
+    $(".slideshow ul").animate({marginLeft:-3800},3000,function(){
+      $(this).css({marginLeft:0}).find("li:last").after($(this).find("li:first"));
+    })
+  }, 5000);
+});});
+
+// TABS
+
+$(document).ready(function(){
+    $('ul.tabs li').click(function(){
+        var tab_id = $(this).attr('data-tab');
+        $('ul.tabs li').removeClass('current');
+        $('.tab-content').removeClass('current');
+        $(this).addClass('current');
+        $("#"+tab_id).addClass('current');
+    })
+})
