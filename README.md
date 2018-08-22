@@ -1,4 +1,4 @@
-# S8 Startup Nation FoodTech O'Quinoa
+# S8 Startup Nation FoodTech
 Online: https://stark-spire-13138.herokuapp.com/
 
 ## Check en mode local :
